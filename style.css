@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0f0; /* green outer glow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px #00ff00;
+  max-width: 400px;
+  width: 90%;
+}
+
+h2, h4 {
+  margin-top: 0;
+}
+
+.input-group {
+  display: flex;
+  margin: 15px 0;
+}
+
+#password {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: #0f0;
+  font-weight: bold;
+  border-radius: 5px 0 0 5px;
+}
+
+#copyBtn {
+  background-color: #555;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.options {
+  margin-top: 15px;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+
+.length-group {
+  margin-top: 10px;
+}
+#length {
+  width: 60px;
+  margin-left: 10px;
+  background-color: #1e1e1e;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 4px;
+  border-radius: 4px;
+}
+#lengthRange::-webkit-slider-runnable-track{
+    background: #00ff00;
+    color: none;
+    border-radius: 11px;
+    height: 15px;
+
+   
+}
+#generate {
+  background-color: #00ff00;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer a {
+  color: #ee6c0a;
+  text-decoration: none;
+}
+/* Checkbox custom green checkmark */
+input[type="checkbox"]:checked {
+  accent-color: #00ff00; /* bright green */
+}
+
+
